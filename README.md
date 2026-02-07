@@ -30,13 +30,13 @@
 
 ## 🛠 What I Do
 
-### 🇬🇧 Engineering Philosophy
+### Engineering Philosophy
 I enjoy turning research-oriented ideas into robust engineering systems:
 * Evaluation-First: Defining metrics, datasets, and ablations before tuning.
 * Reproducible by Default: Standardized scripts, fixed seeds, and detailed environment documentation.
 * Reliability: Focus on calibration, thresholding, error typing, and regression control.
 
-### 🇨🇳 工程理念
+### 工程理念
 评测优先、可复现优先、可靠性优先。
 * 评测驱动：在微调前先确定指标与数据集。
 * 拒绝黑盒：注重脚本化、固定随机种子与环境记录。
