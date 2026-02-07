@@ -1,71 +1,77 @@
-   # Hi, I'm Xu Jia (1EchA)                                                     
-                                                                                
-   I’m looking for **NLP / LLM Engineering internships** (Beijing / Shenzhen /  
- Remote).                                                                       
-   I focus on practical NLP engineering: **evaluation**, **reproducibility**,   
- and **reliable inference**.                                                    
-                                                                                
-   - Focus: Chinese NLP (spelling correction), over-correction control (false   
- edits / FPR)                                                                   
-   - Experience: evaluation pipelines, ablations, memory-aware inference        
- workflows, docs/scripts for reproducibility                                    
-   - Tech: Python, PyTorch, Transformers   
-                                                                                
-   ## Featured Project (private for now)                                        
-   ### Chinese Spelling Correction (CSC) — reliable correction with fewer wrong 
- edits                                                                          
-   I’m building a Chinese text correction system focused on **reducing          
- over-correction (false edits)** while maintaining strong correction quality.   
-   Validated on multiple public benchmarks (e.g., SIGHAN15 / LEMON). Public     
- release planned after thesis/paper.                                            
-                                                                                
-   <details>                                                                    
-   <summary>Technical details</summary>                                         
-                                                                                
-   - SAP4: fine-grained error typing (phonetic/shape)                           
-   - Dual-model ensemble: candidate generation + rescoring                      
-   - Type-aware calibration to control false positives (FPR)                    
-                                                                                
-   </details>                      
-                                                                                
-   ## Selected Public Repos                                                     
-   - Volatility-Regime-Momentum: quantitative research platform (A-share        
- momentum under volatility regimes)                                             
-   - Predicting-medals: GBRT-based medal count prediction                       
-   - GAI-in-social-science: survey notes & resources                            
-                                                                                
-   ## Contact                                                                   
-   - GitHub: https://github.com/1EchA                                           
-   - Email: pingtianhechuan@gmail.com                                           
-                                                                                
-   ---                                                                          
-                                                                                
-   <details>                                                                    
-   <summary>中文简介</summary>                                                  
-                                                                                
-   # Hi！我是徐嘉（1EchA）                                                    
-                                                                                
-   我在找 **NLP / 大模型工程方向实习**（北京 / 深圳 / 远程）。                  
-                                                                                
- 我更擅长把想法落地成“能复现、能评测、方便部署”的项目                                                                    
-                                                                                
-   - 方向：中文NLP（拼写纠错）、过纠控制（FPR）、校准/可靠性评估                
-   - 优势：实验流程搭建、指标对齐、消融分析、文档与复现脚本                     
-   - 技术栈：Python / PyTorch / Transformers                                    
-                                                                                
-   ## 代表项目（暂不公开）                                                      
-   ### 中文拼写纠错（CSC）——更少“误改”的纠错系统                                
-   我在做一个中文文本纠错系统，重点是 **降低过度纠错/误改**，同时保持纠错质量。 
-   已在多个公开数据集上验证（如 SIGHAN15 / LEMON），计划在论文/答辩后开源。     
-                                                                                
-   <details>                                                                    
-   <summary>技术细节</summary>                                                  
-                                                                                
-   - SAP4：更细粒度的音形错误类型划分                                           
-   - 双模型集成：候选生成 + 重打分                                              
-   - 类型级校准：以 FPR 为导向控制误改风险                                      
-                                                                                
-   </details>                                                                   
- ```                                              
-                                                                                
-   </details>                               
+<div align="center">
+
+# Xu Jia (1EchA)
+
+### NLP / LLM Engineering · Evaluation · Reproducibility · Reliable Inference
+
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-yellow)](https://huggingface.co/)
+[![Internship](https://img.shields.io/badge/Looking%20for-Internships-success?style=flat&logo=linkedin)](mailto:pingtianhechuan@gmail.com)
+[![Location](https://img.shields.io/badge/Location-Beijing%20%2F%20Shenzhen%20%2F%20Remote-red?style=flat&logo=google-maps)](https://github.com/1EchA)
+
+<p align="center">
+  <b>Focus:</b> Chinese NLP (Spelling Correction), Over-correction Control, Reliable LLM Inference.<br>
+  I specialize in translating research concepts into reproducible, evaluable, and deployment-ready systems.
+</p>
+
+<p align="center">
+  <strong>🇨🇳 中文介绍</strong><br>
+  正在寻找 <b>NLP / 大模型工程方向实习</b>（北京 / 深圳 / 远程）。<br>
+  擅长将研究想法落地为<b>可复现、可评测、可部署</b>的系统。<br>
+  核心关注：中文拼写纠错（CSC）、由粗到细的误改控制（FPR）、模型可靠性。
+</p>
+
+[Email Me](mailto:pingtianhechuan@gmail.com) · [GitHub Profile](https://github.com/1EchA)
+
+</div>
+
+---
+
+## 🛠 What I Do
+
+### 🇬🇧 Engineering Philosophy
+I enjoy turning research-oriented ideas into robust engineering systems:
+* Evaluation-First: Defining metrics, datasets, and ablations before tuning.
+* Reproducible by Default: Standardized scripts, fixed seeds, and detailed environment documentation.
+* Reliability: Focus on calibration, thresholding, error typing, and regression control.
+
+### 🇨🇳 工程理念
+评测优先、可复现优先、可靠性优先。
+* 评测驱动：在微调前先确定指标与数据集。
+* 拒绝黑盒：注重脚本化、固定随机种子与环境记录。
+* 可靠性：通过校准、阈值控制和分类型评估，严格控制误改（False Edits）与能力回归。
+
+---
+
+## 🔭 Featured Work (Private / In Progress)
+
+### Chinese Spelling Correction (CSC) — Stable & Low-FPR
+> *A Chinese text correction system that prioritizes reducing over-correction (false edits) while maintaining strong correction quality.*
+
+Current Focus:
+* Fine-grained Error Typing: Distinguishing between phonetic and shape-based errors.
+* Dual-Stage Pipeline: Candidate generation → Rescoring / Filtering.
+* Type-Aware Calibration: strict control over False Positive Rate (FPR).
+
+> 中文说明：
+> 一个重点降低“误改/过纠”（FPR）的中文拼写纠错系统。目前正在进行由粗到细的错误类型分类（音/形）及两阶段流水线开发。计划在论文/毕业设计完成后开源。
+
+---
+
+## 📂 Selected Public Repos
+
+| Project | Description | Tech / Topic |
+| :--- | :--- | :--- |
+| **[Volatility-Regime-Momentum](https://github.com/1EchA/Volatility-Regime-Momentum)** | Quant Research: A-share momentum strategies under different volatility regimes. | `Quant Finance` `A-Share` |
+| **[Codex-KBChat](https://github.com/1EchA/Codex-KBChat)** | Productivity: macOS menubar knowledge base + chat for local Markdown vaults. | `Electron` `RAG` `Local-First` |
+| **[Predicting-medals](https://github.com/1EchA/Predicting-medals)** | Data Science: GBRT-based Olympic medal count prediction (Paper + Code). | `GBRT` `Data Mining` |
+| **[GAI-in-social-science](https://github.com/1EchA/GAI-in-social-science)** | Survey: Trend-based review and resources for GAI in social science. | `Survey` `Social Science` |
+
+---
+
+<div align="center">
+  <p>
+    Connect with me via <a href="mailto:pingtianhechuan@gmail.com">pingtianhechuan@gmail.com</a>
+  </p>
+</div>
