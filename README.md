@@ -42,7 +42,7 @@ Key Engineering Points:
 * Type-Aware Calibration: Strict control over False Positive Rate (FPR).
 
 > 中文说明：
-> 一个重点降低“误改/过纠”（FPR）的中文拼写纠错系统。目前正在进行由粗到细的错误类型分类及两阶段流水线开发。计划在论文/毕业设计完成后开源。
+> 一个重点降低“误改/过纠”（FPR）的中文拼写纠错系统。目前正在进行由粗到细的错误类型分类及两阶段流水线开发。计划在论文设计完成后开源。
 
 ---
 
