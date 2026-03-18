@@ -7,6 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-yellow)](https://huggingface.co/)
+[![Blog](https://img.shields.io/badge/Blog-vibelearning.top-purple?style=flat&logo=ghost&logoColor=white)](https://vibelearning.top/)
 [![Internship](https://img.shields.io/badge/Looking%20for-Internships-success?style=flat&logo=linkedin)](mailto:pingtianhechuan@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Beijing%20%2F%20Shenzhen%20%2F%20Remote-red?style=flat&logo=google-maps)](https://github.com/1EchA)
 
@@ -50,6 +51,7 @@ Key Engineering Points:
 
 | Project | Description | Tech / Topic |
 | :--- | :--- | :--- |
+| **[how-to-vibecoding](https://github.com/1EchA/how-to-vibecoding)** | Vibecoding 系列教程：从环境搭建到多智能体协作的实战指南 | `AI Coding` `MCP` `Tutorial` |
 | **[Volatility-Regime-Momentum](https://github.com/1EchA/Volatility-Regime-Momentum)** | Quant Research: A-share momentum strategies under different volatility regimes. | `Quant Finance` `A-Share` |
 | **[Codex-KBChat](https://github.com/1EchA/Codex-KBChat)** | Productivity: macOS menubar knowledge base + chat for local Markdown vaults. | `Electron` `RAG` `Local-First` |
 | **[Predicting-medals](https://github.com/1EchA/Predicting-medals)** | Data Science: GBRT-based Olympic medal count prediction (Paper + Code). | `GBRT` `Data Mining` |
